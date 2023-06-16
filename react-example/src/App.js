@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import UncontrolledForm from ' ./components/UncontrolledForm';
+import ControlledForm from './components/ControlledForm';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <UncontrolledForm />
+      <ControlledForm />
     </div>
   );
 }
